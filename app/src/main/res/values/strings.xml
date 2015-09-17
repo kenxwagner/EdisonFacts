@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="how_About_This">How About This?</string>
+    <string name="edison_did_this">Edison Moved to find work.</string>
+    <string name="get_Facts">Get a Fact</string>
+
 </resources>

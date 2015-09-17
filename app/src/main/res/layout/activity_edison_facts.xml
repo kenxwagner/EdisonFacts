@@ -6,20 +6,42 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context=".EdisonFactsActivity">
-
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+                tools:context=".EdisonFactsActivity"
+                android:background="@mipmap/electric_lamp_1880">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Next Fact"
-        android:id="@+id/button"
+        android:text="@string/get_Facts"
+        android:id="@+id/getFactsButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edison_did_this"
+        android:id="@+id/factsOutput"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:autoText="false"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_About_This"
+        android:id="@+id/topLineText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:singleLine="false"/>
 
 </RelativeLayout>
