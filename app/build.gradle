@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "kennewickpractice.com.edisonfacts"
+        applicationId "built2gsd.com.edisonfacts"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1

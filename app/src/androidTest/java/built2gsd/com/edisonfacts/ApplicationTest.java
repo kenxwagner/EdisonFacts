@@ -1,4 +1,4 @@
-package kennewickpractice.com.edisonfacts;
+package built2gsd.com.edisonfacts;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -7,7 +7,8 @@
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 tools:context=".EdisonFactsActivity"
-                android:background="@mipmap/electric_lamp_1880">
+                android:background="@mipmap/electric_lamp_1880_op100"
+                android:id="@+id/relativeLayout">
 
     <Button
         android:layout_width="match_parent"
@@ -18,8 +19,9 @@
         android:layout_centerHorizontal="true"
         android:textSize="24sp"
         android:layout_alignParentEnd="true"
-        android:textColor="@android:color/black"
-        android:background="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:background="@color/button_material_dark"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,7 +33,8 @@
         android:textSize="24sp"
         android:autoText="false"
         android:textColor="@android:color/black"
-        android:background="@android:color/white"/>
+        android:textStyle="bold"
+        android:textIsSelectable="false"/>
 
     <TextView
         android:layout_width="wrap_content"
