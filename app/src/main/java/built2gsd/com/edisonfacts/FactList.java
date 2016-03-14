@@ -26,6 +26,7 @@ public class FactList {
             "December 18 1913: Orville Wright visited Edison at his West Orange Labs",
             "Edison was 22 years old when he filed his first patent for the Electrographic Vote Recorder. It was never used.",
             "Edison invented the entire electric utility system.",
+	    "Edison read the Hume's "History of England." Sear's "History of the World," Gibbons's "Rome," "The Penny Encyclopedia," and several works on electricity and science during the age of 9 through 12.", 
             "Edison invented a fluoroscope that he left to public domain and did not patent.",
             "He had a patent in 1885 on the transmission of wireless signals which were sold to Guglielmo Marconi (the radio pioneer).",
             "Edison invented an improvement to the telephone transmitter that was used for almost 100 years.",
